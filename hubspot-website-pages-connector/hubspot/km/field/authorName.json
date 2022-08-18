@@ -1,0 +1,14 @@
+{
+    "$id": "hubspotWebsitePages_authorName",
+    "$schema": "https://schema.yext.com/config/km/field/v1",
+    "description": "",
+    "displayName": "Author Name",
+    "group": "NONE",
+    "localization": "PRIMARY_ONLY",
+    "type": {
+      "stringType": {
+        "stereotype": "SIMPLE"
+      }
+    },
+    "typeId": "string"
+  }

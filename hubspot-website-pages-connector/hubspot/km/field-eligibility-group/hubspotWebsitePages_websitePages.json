@@ -1,0 +1,13 @@
+{
+    "$id": "hubspotWebsitePages_websitePages",
+    "$schema": "https://schema.yext.com/config/km/field-eligibility-group/v1",
+    "name": "Website Pages",
+    "entityType": "hubspotWebsitePages_websitePages",
+    "fields": [
+        "landingPageUrl",
+        "externalArticleUpdateDate",
+        "externalArticlePostDate",
+        "hubspotWebsitePages_authorName",
+        "hubspotWebsitePages_featuredImage"
+    ]
+}

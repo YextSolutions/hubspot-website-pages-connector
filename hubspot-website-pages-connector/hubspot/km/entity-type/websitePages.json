@@ -1,0 +1,7 @@
+{
+    "$id": "hubspotWebsitePages_websitePages",
+    "$schema": "https://schema.yext.com/config/km/entity-type/v2",
+    "description": "",
+    "displayName": "Website Pages",
+    "pluralDisplayName": ""
+  }

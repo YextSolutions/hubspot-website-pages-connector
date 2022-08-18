@@ -1,0 +1,134 @@
+{
+    "$id": "hubspotWebsitePages_connector",
+    "$schema": "https://schema.yext.com/config/km/connector/v2",
+    "displayName": "HubSpot Website Pages Connector",
+    "entityType": "hubspotWebsitePages_websitePages",
+    "source": {
+      "sourceConfig": {
+        "nativeSourceConfig": {
+          "source": "hubspot",
+          "operation": "fetchWebsitePages",
+          "inputs": {
+            "hubspotLinkedAccount": "${{hubspotLinkedAccountId}}"
+          }
+        }
+      }, 
+      "selectors": [
+        {
+          "type": "JSON",
+          "header": "ID",
+          "path": "id"
+        },
+        {
+          "type": "JSON",
+          "header": "URL",
+          "path": "url"
+        },
+        {
+          "type": "JSON",
+          "header": "Name",
+          "path": "name"
+        },
+        {
+          "type": "JSON",
+          "header": "Updated Date",
+          "path": "updatedAt"
+        },
+        {
+          "type": "JSON",
+          "header": "Published Date",
+          "path": "publishDate"
+        },
+        {
+          "type": "JSON",
+          "header": "Author Name",
+          "path": "authorName"
+        },
+        {
+          "type": "JSON",
+          "header": "Featured Image",
+          "path": "featuredImage"
+        }
+      ]
+    },
+    "transforms": [
+      {
+        "extractText": {
+          "inputHeader": "Updated Date",
+          "newColumnHeader": "Updated Date - Formatted",
+          "extractOperation": "ALL_TEXT_BEFORE",
+          "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
+          "valueToFind": {
+            "plainText": {
+              "value": "T",
+              "ignoreCase": false
+            }
+          }
+        }
+      },
+      {
+        "extractText": {
+          "inputHeader": "Published Date",
+          "newColumnHeader": "Published Date - Formatted",
+          "extractOperation": "ALL_TEXT_BEFORE",
+          "extractFrom": "FIRST_INSTANCE_MATCHING_TEXT",
+          "valueToFind": {
+            "plainText": {
+              "value": "T",
+              "ignoreCase": false
+            }
+          }
+        }
+      }
+    ],
+    "mappings": [
+      {
+        "field": "entityId",
+        "header": "ID",
+        "subfieldPath": []
+      },
+      {
+        "field": "landingPageUrl",
+        "header": "URL",
+        "subfieldPath": []
+      },
+      {
+        "field": "name",
+        "header": "Name",
+        "subfieldPath": []
+      },
+      {
+        "field": "externalArticleUpdateDate",
+        "header": "Updated Date - Formatted Date",
+        "subfieldPath": []
+      },
+      {
+        "field": "externalArticlePostDate",
+        "header": "Published Date - Formatted",
+        "subfieldPath": []
+      },
+      {
+        "field": "hubspotWebsitePages_authorName",
+        "header": "Author Name",
+        "subfieldPath": []
+      },
+      {
+        "field": "hubspotWebsitePages_featuredImage",
+        "header": "Featured Image",
+        "subfieldPath": [
+          {
+            "name": "url"
+          }
+        ]
+      }
+    ],
+    "scheduleConfig": {
+      "customSchedule": {
+        "timeZone": "America/New_York",
+        "startDate": "2022-08-19",
+        "startTime": "00:00",
+        "frequencyType": "DAILY"
+      },
+      "runMode": "COMPREHENSIVE"
+    }
+}
