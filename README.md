@@ -26,9 +26,11 @@ Before installing the app do the following:
 Once you've created your Hubspot Linked Account and copied the ID:
 
 1. Log in to your Yext account
-2. Navigate to the Apps > Directory tab in the platform.
-3. Search for the Hubspot Website Pages Connector app and click Install.
-4. Accept the following changes to your account by clicking Next and authorize Yext APIs.
-5. Provide your Hubspot linked account ID.
-6. Wait for the connector to run and see all of your newly created Website Pages entities in the Knowledge Graph tab in the platform!
+2. Navigate to the **Apps > Directory** tab in the platform.
+3. Search for the **Hubspot Website Pages Connector** app and click **Install**.
+4. Accept the following changes to your account by clicking **Next** and authorize Yext APIs.
+5. Provide your **Hubspot Linked Account ID**.
+6. Click **Run Your Connector**
+
+Once the connector runs, you'll be able to see all of your newly created Website Pages entities in the Knowledge Graph tab in the platform!
 
