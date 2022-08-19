@@ -17,10 +17,10 @@ This app creates a custom Hubspot Website Pages entity type and 2 custom fields:
 # Installation Instructions
 Before installing the app do the following:
 
-1. Go to the Linked Accounts page in your account. You can find this by going to Knowledge Graph > Configuration > Linked Accounts. 
-2. Click on "Hubspot" or "Hubspot - Sandbox" if you would like to use a Hubspot Sandbox account. 
-3. Click "+Add Linked Account" on the top right. 
-4. Click "Link" and log into the Hubspot account you have your Website Pages in. 
+1. Go to the **Linked Accounts** page in your account. You can find this by going to **Knowledge Graph > Configuration > Linked Accounts**. 
+2. Click on **Hubspot** or **Hubspot - Sandbox** if you would like to use a Hubspot Sandbox account. 
+3. Click **+Add Linked Account** on the top right. 
+4. Click **Link** and log into the Hubspot account you have your Website Pages in. 
 5. Name your linked account and copy the ID of it. You will need it when you install the app in your next steps. 
 
 Once you've created your Hubspot Linked Account and copied the ID:
