@@ -9,6 +9,7 @@ This app creates a custom Hubspot Website Pages entity type and 2 custom fields:
 
 - Author Name
 - Featured Image
+# Requirements
 
 ### To use this template you will need to have the following before you install:
 
