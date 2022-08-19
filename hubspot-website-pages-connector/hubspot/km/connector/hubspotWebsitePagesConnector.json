@@ -1,6 +1,6 @@
 {
     "$id": "hubspotWebsitePages_connector",
-    "$schema": "https://schema.yext.com/config/km/connector/v2",
+    "$schema": "https://schema.yext.com/config/km/connector/v3",
     "displayName": "HubSpot Website Pages Connector",
     "entityType": "hubspotWebsitePages_websitePages",
     "source": {
@@ -99,7 +99,7 @@
       },
       {
         "field": "externalArticleUpdateDate",
-        "header": "Updated Date - Formatted Date",
+        "header": "Updated Date - Formatted                               ",
         "subfieldPath": []
       },
       {
