@@ -1,7 +1,7 @@
 {
     "$id": "hubspotWebsitePages_websitePages",
     "$schema": "https://schema.yext.com/config/km/entity-type/v2",
-    "description": "",
+    "description": "Use this entity type to store information about your HubSpot Website Pages.",
     "displayName": "Website Pages",
     "pluralDisplayName": ""
   }

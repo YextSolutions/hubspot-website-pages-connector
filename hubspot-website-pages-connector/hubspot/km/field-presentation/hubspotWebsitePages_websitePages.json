@@ -1,5 +1,5 @@
 {
-    "$id": "hubspotWebsitePages_websitePages",
+    "$id": "hubspot_websitePages",
     "$schema": "https://schema.yext.com/config/km/field-presentation/v1",
     "entityType": "hubspotWebsitePages_websitePages",
     "displayName": "Website Pages",
