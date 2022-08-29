@@ -8,6 +8,7 @@
         "externalArticleUpdateDate",
         "externalArticlePostDate",
         "hubspotWebsitePages_authorName",
-        "hubspotWebsitePages_featuredImage"
+        "hubspotWebsitePages_featuredImage",
+        "hubspotWebsitePages_subcategory"
     ]
 }
