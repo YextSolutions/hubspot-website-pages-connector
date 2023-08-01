@@ -12,24 +12,24 @@
             "displayName": "Core Information",
             "entryType": "SECTION",
             "fields": [
-              {
-                "id": "name",
-                "visibleOnAdd": true
-              },
-              {
-                "id": "entityId",
-                "visibleOnAdd": true
-              },
-              {
-                "id": "landingPageUrl",
-                "visibleOnAdd": true
-              },
-              {
-                "id": "externalArticleUpdateDate"
-              },
-              {
-                "id": "externalArticlePostDate"
-              }
+                {
+                    "id": "name",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "entityId",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "landingPageUrl",
+                    "visibleOnAdd": true
+                },
+                {
+                    "id": "externalArticleUpdateDate"
+                },
+                {
+                    "id": "externalArticlePostDate"
+                }
             ]
         },
         {
@@ -37,13 +37,13 @@
             "entryType": "SECTION",
             "fields": [
                 {
-                  "id": "hubspotWebsitePages_authorName"
+                    "id": "hubspotWebsitePages_authorName"
                 },
                 {
-                  "id": "hubspotWebsitePages_featuredImage"
+                    "id": "hubspotWebsitePages_featuredImage"
                 },
                 {
-                  "id": "hubspotWebsitePages_subcategory"
+                    "id": "hubspotWebsitePages_subcategory"
                 }
             ]
         },
